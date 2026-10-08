@@ -1,0 +1,4 @@
+image,N,global_s,window_s,weights_s,dense_W_MB,sparse_W_MB,window_recall,outside_window,median_px_dist,dist_ratio,digit_pixels,outside_digit,ratio_digit
+112x112,12544,0.125,0.105,0.006,629.4,2.43,0.045,0.955,51,1.414,0.12,0.835,1.451
+224x224,50176,1.171,0.434,0.027,10070.5,9.83,0.015,0.985,104,1.572,0.131,0.946,1.671
+448x448,200704,16.906,1.699,0.114,161128.4,39.79,0.005,0.995,203,1.737,0.13,0.982,1.934
