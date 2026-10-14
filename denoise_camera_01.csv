@@ -1,0 +1,6 @@
+image,graph,build_s,edges,mean_degree,min_degree,max_degree,isolated,recall_vs_exact,best_lambda,psnr_db,gain_db
+256x256 camera,window all (11x11),0.414,7696260,117.4,35,120,0.0,,5,28.84,8.84
+256x256 camera,window kNN,0.414,962828,14.7,10,85,0.0,0.03,1,29.51,9.5
+256x256 camera,window eps-ball,0.414,5086910,77.6,0,120,0.019,,1,28.72,8.72
+256x256 camera,global kNN exact,2.094,1090958,16.6,10,195,0.0,1.0,1,28.29,8.29
+256x256 camera,global kNN NN-Descent,0.256,1092862,16.7,10,236,0.0,0.773,1,28.37,8.37
