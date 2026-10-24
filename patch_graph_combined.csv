@@ -1,0 +1,289 @@
+image,noise,seed,graph,build_s,mean_degree,neighbour_error,best_lambda,psnr_db,vs_window_knn_db
+camera,0.1,0,window kNN (10),0.499,14.7,0.0261,1,29.53,0.0
+camera,0.1,0,window kNN (20),0.499,28.3,0.0296,2,29.26,-0.28
+camera,0.1,0,learned global (10),1.562,14.8,0.0307,0.5,28.83,-0.71
+camera,0.1,0,learned global (20),1.562,29.6,0.0317,2,28.78,-0.75
+camera,0.1,0,combined 5+5,2.061,14.8,0.0269,1,29.69,0.16
+camera,0.1,0,combined 10+10,2.061,28.9,0.0283,2,29.58,0.04
+camera,0.1,0,"window kNN, learned codes (10)",0.332,14.0,0.0252,0.5,29.37,-0.17
+camera,0.1,0,oracle: clean patches,0.0,16.0,0.0153,0.5,31.51,1.98
+camera,0.1,1,window kNN (10),0.498,14.7,0.0262,1,29.61,0.0
+camera,0.1,1,window kNN (20),0.498,28.4,0.0296,2,29.32,-0.29
+camera,0.1,1,learned global (10),0.502,14.8,0.0305,0.5,28.97,-0.64
+camera,0.1,1,learned global (20),0.502,29.6,0.0315,1,28.92,-0.69
+camera,0.1,1,combined 5+5,0.999,14.8,0.0269,1,29.72,0.11
+camera,0.1,1,combined 10+10,0.999,28.8,0.0282,2,29.64,0.04
+camera,0.1,1,"window kNN, learned codes (10)",0.348,14.0,0.0251,0.5,29.52,-0.09
+camera,0.1,1,oracle: clean patches,0.0,16.0,0.0153,0.5,31.57,1.96
+camera,0.1,2,window kNN (10),0.497,14.6,0.026,1,29.49,0.0
+camera,0.1,2,window kNN (20),0.497,28.2,0.0294,2,29.22,-0.28
+camera,0.1,2,learned global (10),0.491,14.8,0.0307,0.5,28.83,-0.67
+camera,0.1,2,learned global (20),0.491,29.6,0.0317,2,28.79,-0.7
+camera,0.1,2,combined 5+5,0.988,14.7,0.0269,1,29.61,0.12
+camera,0.1,2,combined 10+10,0.988,28.8,0.0282,2,29.53,0.03
+camera,0.1,2,"window kNN, learned codes (10)",0.33,14.0,0.0251,0.5,29.33,-0.16
+camera,0.1,2,oracle: clean patches,0.0,16.0,0.0153,0.5,31.47,1.98
+camera,0.2,0,window kNN (10),0.503,14.9,0.0318,0.5,25.43,0.0
+camera,0.2,0,window kNN (20),0.503,28.5,0.0339,1,25.17,-0.26
+camera,0.2,0,learned global (10),0.494,15.0,0.0421,0.2,25.0,-0.43
+camera,0.2,0,learned global (20),0.494,30.1,0.0427,0.5,25.0,-0.43
+camera,0.2,0,combined 5+5,0.997,15.1,0.0358,0.5,25.86,0.43
+camera,0.2,0,combined 10+10,0.997,29.6,0.0369,1,25.74,0.32
+camera,0.2,0,"window kNN, learned codes (10)",0.349,14.5,0.0282,0.5,25.6,0.17
+camera,0.2,0,oracle: clean patches,0.0,16.0,0.0153,0.2,29.5,4.08
+camera,0.2,1,window kNN (10),0.495,14.9,0.0317,0.5,25.41,0.0
+camera,0.2,1,window kNN (20),0.495,28.6,0.0338,1,25.17,-0.24
+camera,0.2,1,learned global (10),0.488,15.0,0.0421,0.2,25.09,-0.32
+camera,0.2,1,learned global (20),0.488,30.1,0.0428,0.5,25.07,-0.34
+camera,0.2,1,combined 5+5,0.983,15.1,0.0358,0.5,25.87,0.46
+camera,0.2,1,combined 10+10,0.983,29.6,0.0369,1,25.75,0.34
+camera,0.2,1,"window kNN, learned codes (10)",0.331,14.5,0.0282,0.5,25.69,0.28
+camera,0.2,1,oracle: clean patches,0.0,16.0,0.0153,0.2,29.61,4.2
+camera,0.2,2,window kNN (10),0.507,14.8,0.0316,0.5,25.43,0.0
+camera,0.2,2,window kNN (20),0.507,28.4,0.0337,1,25.17,-0.25
+camera,0.2,2,learned global (10),0.477,15.0,0.0425,0.2,25.0,-0.43
+camera,0.2,2,learned global (20),0.477,30.1,0.0432,0.5,24.98,-0.45
+camera,0.2,2,combined 5+5,0.984,15.1,0.036,0.5,25.79,0.36
+camera,0.2,2,combined 10+10,0.984,29.5,0.037,1,25.69,0.26
+camera,0.2,2,"window kNN, learned codes (10)",0.332,14.5,0.0282,0.5,25.58,0.15
+camera,0.2,2,oracle: clean patches,0.0,16.0,0.0153,0.2,29.5,4.07
+astronaut,0.1,0,window kNN (10),0.501,14.2,0.0368,1,27.39,0.0
+astronaut,0.1,0,window kNN (20),0.501,27.4,0.043,2,27.11,-0.29
+astronaut,0.1,0,learned global (10),0.456,14.8,0.0398,1,27.31,-0.08
+astronaut,0.1,0,learned global (20),0.456,29.7,0.0417,2,27.21,-0.18
+astronaut,0.1,0,combined 5+5,0.956,14.3,0.0359,1,27.75,0.36
+astronaut,0.1,0,combined 10+10,0.956,27.9,0.0386,2,27.6,0.2
+astronaut,0.1,0,"window kNN, learned codes (10)",0.33,13.5,0.0334,1,28.0,0.6
+astronaut,0.1,0,oracle: clean patches,0.0,15.1,0.0215,1,30.01,2.61
+astronaut,0.1,1,window kNN (10),0.499,14.2,0.0371,2,27.3,0.0
+astronaut,0.1,1,window kNN (20),0.499,27.5,0.0432,2,27.05,-0.25
+astronaut,0.1,1,learned global (10),0.465,14.8,0.0399,1,27.28,-0.02
+astronaut,0.1,1,learned global (20),0.465,29.7,0.0417,2,27.17,-0.14
+astronaut,0.1,1,combined 5+5,0.964,14.3,0.036,1,27.68,0.38
+astronaut,0.1,1,combined 10+10,0.964,27.9,0.0388,2,27.53,0.23
+astronaut,0.1,1,"window kNN, learned codes (10)",0.326,13.5,0.0336,1,27.93,0.63
+astronaut,0.1,1,oracle: clean patches,0.0,15.1,0.0215,1,29.96,2.66
+astronaut,0.1,2,window kNN (10),0.509,14.2,0.0368,1,27.37,0.0
+astronaut,0.1,2,window kNN (20),0.509,27.4,0.0431,2,27.06,-0.31
+astronaut,0.1,2,learned global (10),0.458,14.8,0.0398,1,27.32,-0.05
+astronaut,0.1,2,learned global (20),0.458,29.7,0.0417,2,27.2,-0.17
+astronaut,0.1,2,combined 5+5,0.967,14.3,0.0358,1,27.76,0.39
+astronaut,0.1,2,combined 10+10,0.967,27.9,0.0386,2,27.6,0.23
+astronaut,0.1,2,"window kNN, learned codes (10)",0.332,13.5,0.0333,1,27.97,0.6
+astronaut,0.1,2,oracle: clean patches,0.0,15.1,0.0215,1,29.99,2.62
+astronaut,0.2,0,window kNN (10),0.496,14.6,0.0493,1,23.3,0.0
+astronaut,0.2,0,window kNN (20),0.496,28.0,0.0534,2,23.1,-0.2
+astronaut,0.2,0,learned global (10),0.458,15.1,0.0562,0.5,23.82,0.52
+astronaut,0.2,0,learned global (20),0.458,30.3,0.0575,1,23.76,0.46
+astronaut,0.2,0,combined 5+5,0.953,15.0,0.0509,1,23.96,0.66
+astronaut,0.2,0,combined 10+10,0.953,29.3,0.053,2,23.88,0.59
+astronaut,0.2,0,"window kNN, learned codes (10)",0.335,14.2,0.0396,0.5,24.09,0.79
+astronaut,0.2,0,oracle: clean patches,0.0,15.1,0.0215,0.5,27.62,4.32
+astronaut,0.2,1,window kNN (10),0.499,14.7,0.0493,1,23.41,0.0
+astronaut,0.2,1,window kNN (20),0.499,28.1,0.0534,2,23.2,-0.21
+astronaut,0.2,1,learned global (10),0.449,15.1,0.0556,0.5,23.83,0.42
+astronaut,0.2,1,learned global (20),0.449,30.3,0.0569,1,23.76,0.34
+astronaut,0.2,1,combined 5+5,0.948,15.0,0.0509,1,23.98,0.56
+astronaut,0.2,1,combined 10+10,0.948,29.3,0.0527,2,23.92,0.51
+astronaut,0.2,1,"window kNN, learned codes (10)",0.334,14.1,0.0399,0.5,24.1,0.69
+astronaut,0.2,1,oracle: clean patches,0.0,15.1,0.0215,0.5,27.59,4.17
+astronaut,0.2,2,window kNN (10),0.499,14.6,0.0492,1,23.26,0.0
+astronaut,0.2,2,window kNN (20),0.499,28.0,0.0534,2,23.05,-0.22
+astronaut,0.2,2,learned global (10),0.461,15.1,0.0569,0.5,23.76,0.5
+astronaut,0.2,2,learned global (20),0.461,30.3,0.0581,1,23.69,0.42
+astronaut,0.2,2,combined 5+5,0.959,15.0,0.0513,1,23.9,0.64
+astronaut,0.2,2,combined 10+10,0.959,29.3,0.0534,2,23.84,0.58
+astronaut,0.2,2,"window kNN, learned codes (10)",0.332,14.2,0.0395,0.5,24.07,0.8
+astronaut,0.2,2,oracle: clean patches,0.0,15.1,0.0215,0.5,27.61,4.35
+coffee,0.1,0,window kNN (10),0.5,14.6,0.0283,1,29.1,0.0
+coffee,0.1,0,window kNN (20),0.5,28.1,0.0315,2,28.92,-0.18
+coffee,0.1,0,learned global (10),0.481,14.9,0.0313,0.5,28.78,-0.33
+coffee,0.1,0,learned global (20),0.481,29.9,0.0324,2,28.87,-0.24
+coffee,0.1,0,combined 5+5,0.981,14.7,0.0284,1,29.39,0.29
+coffee,0.1,0,combined 10+10,0.981,28.7,0.0298,2,29.34,0.24
+coffee,0.1,0,"window kNN, learned codes (10)",0.35,13.9,0.0249,0.5,29.49,0.39
+coffee,0.1,0,oracle: clean patches,0.0,15.3,0.0155,0.5,31.5,2.39
+coffee,0.1,1,window kNN (10),0.527,14.6,0.028,1,29.15,0.0
+coffee,0.1,1,window kNN (20),0.527,28.1,0.0313,2,28.96,-0.19
+coffee,0.1,1,learned global (10),0.468,14.9,0.0312,1,28.85,-0.3
+coffee,0.1,1,learned global (20),0.468,29.9,0.0323,2,28.94,-0.21
+coffee,0.1,1,combined 5+5,0.995,14.7,0.0282,1,29.46,0.31
+coffee,0.1,1,combined 10+10,0.995,28.7,0.0296,2,29.39,0.24
+coffee,0.1,1,"window kNN, learned codes (10)",0.329,13.9,0.0248,0.5,29.51,0.36
+coffee,0.1,1,oracle: clean patches,0.0,15.3,0.0155,0.5,31.51,2.36
+coffee,0.1,2,window kNN (10),0.5,14.6,0.0281,1,29.09,0.0
+coffee,0.1,2,window kNN (20),0.5,28.1,0.0314,2,28.91,-0.18
+coffee,0.1,2,learned global (10),0.488,15.0,0.0317,1,28.69,-0.41
+coffee,0.1,2,learned global (20),0.488,30.0,0.0329,2,28.76,-0.34
+coffee,0.1,2,combined 5+5,0.987,14.7,0.0285,1,29.31,0.21
+coffee,0.1,2,combined 10+10,0.987,28.7,0.0299,2,29.25,0.15
+coffee,0.1,2,"window kNN, learned codes (10)",0.335,13.9,0.025,0.5,29.35,0.26
+coffee,0.1,2,oracle: clean patches,0.0,15.3,0.0155,1,31.36,2.27
+coffee,0.2,0,window kNN (10),0.509,14.8,0.0361,1,24.98,0.0
+coffee,0.2,0,window kNN (20),0.509,28.4,0.0384,2,24.76,-0.22
+coffee,0.2,0,learned global (10),0.471,15.1,0.0433,0.2,25.37,0.39
+coffee,0.2,0,learned global (20),0.471,30.3,0.044,1,25.32,0.34
+coffee,0.2,0,combined 5+5,0.98,15.1,0.0386,0.5,25.71,0.73
+coffee,0.2,0,combined 10+10,0.98,29.5,0.0397,1,25.58,0.6
+coffee,0.2,0,"window kNN, learned codes (10)",0.348,14.4,0.0291,0.5,25.8,0.82
+coffee,0.2,0,oracle: clean patches,0.0,15.3,0.0155,0.2,29.15,4.17
+coffee,0.2,1,window kNN (10),0.514,14.9,0.0356,1,25.13,0.0
+coffee,0.2,1,window kNN (20),0.514,28.4,0.038,2,24.91,-0.22
+coffee,0.2,1,learned global (10),0.471,15.1,0.0431,0.2,25.51,0.37
+coffee,0.2,1,learned global (20),0.471,30.3,0.0438,1,25.46,0.33
+coffee,0.2,1,combined 5+5,0.985,15.1,0.0384,0.5,25.84,0.71
+coffee,0.2,1,combined 10+10,0.985,29.5,0.0394,1,25.75,0.61
+coffee,0.2,1,"window kNN, learned codes (10)",0.33,14.4,0.0288,0.5,25.99,0.86
+coffee,0.2,1,oracle: clean patches,0.0,15.3,0.0155,0.2,29.23,4.1
+coffee,0.2,2,window kNN (10),0.511,14.8,0.036,1,24.91,0.0
+coffee,0.2,2,window kNN (20),0.511,28.4,0.0383,2,24.71,-0.19
+coffee,0.2,2,learned global (10),0.498,15.1,0.0438,0.2,25.25,0.34
+coffee,0.2,2,learned global (20),0.498,30.3,0.0445,1,25.22,0.31
+coffee,0.2,2,combined 5+5,1.009,15.2,0.0389,0.5,25.56,0.65
+coffee,0.2,2,combined 10+10,1.009,29.6,0.04,1,25.45,0.55
+coffee,0.2,2,"window kNN, learned codes (10)",0.371,14.4,0.0293,0.5,25.68,0.77
+coffee,0.2,2,oracle: clean patches,0.0,15.3,0.0155,0.2,29.02,4.12
+chelsea,0.1,0,window kNN (10),0.527,14.6,0.0372,1,28.15,0.0
+chelsea,0.1,0,window kNN (20),0.527,27.9,0.039,2,27.98,-0.17
+chelsea,0.1,0,learned global (10),0.473,15.3,0.0358,0.5,29.26,1.11
+chelsea,0.1,0,learned global (20),0.473,30.9,0.0363,1,29.29,1.14
+chelsea,0.1,0,combined 5+5,1.0,15.1,0.0358,1,29.08,0.93
+chelsea,0.1,0,combined 10+10,1.0,29.4,0.0367,2,29.04,0.89
+chelsea,0.1,0,"window kNN, learned codes (10)",0.371,14.4,0.0307,0.5,29.26,1.11
+chelsea,0.1,0,oracle: clean patches,0.0,16.1,0.0165,0.5,32.58,4.43
+chelsea,0.1,1,window kNN (10),0.506,14.7,0.0372,1,28.15,0.0
+chelsea,0.1,1,window kNN (20),0.506,28.0,0.039,2,27.98,-0.17
+chelsea,0.1,1,learned global (10),0.491,15.3,0.0354,0.5,29.35,1.2
+chelsea,0.1,1,learned global (20),0.491,30.9,0.0359,1,29.36,1.21
+chelsea,0.1,1,combined 5+5,0.998,15.1,0.0356,1,29.11,0.96
+chelsea,0.1,1,combined 10+10,0.998,29.5,0.0365,2,29.06,0.91
+chelsea,0.1,1,"window kNN, learned codes (10)",0.351,14.4,0.0307,0.5,29.28,1.13
+chelsea,0.1,1,oracle: clean patches,0.0,16.1,0.0165,0.5,32.55,4.4
+chelsea,0.1,2,window kNN (10),0.504,14.6,0.0371,1,28.16,0.0
+chelsea,0.1,2,window kNN (20),0.504,27.9,0.039,2,27.99,-0.17
+chelsea,0.1,2,learned global (10),0.459,15.3,0.0357,0.5,29.3,1.14
+chelsea,0.1,2,learned global (20),0.459,30.9,0.0362,1,29.32,1.16
+chelsea,0.1,2,combined 5+5,0.963,15.0,0.0357,1,29.1,0.93
+chelsea,0.1,2,combined 10+10,0.963,29.5,0.0366,2,29.06,0.9
+chelsea,0.1,2,"window kNN, learned codes (10)",0.352,14.4,0.0307,0.5,29.27,1.1
+chelsea,0.1,2,oracle: clean patches,0.0,16.1,0.0165,0.5,32.55,4.38
+chelsea,0.2,0,window kNN (10),0.513,14.9,0.0466,1,24.87,0.0
+chelsea,0.2,0,window kNN (20),0.513,28.4,0.0477,2,24.78,-0.08
+chelsea,0.2,0,learned global (10),0.467,15.3,0.0475,0.02,26.67,1.8
+chelsea,0.2,0,learned global (20),0.467,30.8,0.0477,0.1,26.75,1.89
+chelsea,0.2,0,combined 5+5,0.98,15.3,0.0465,0.5,26.06,1.2
+chelsea,0.2,0,combined 10+10,0.98,30.0,0.0471,1,25.98,1.11
+chelsea,0.2,0,"window kNN, learned codes (10)",0.342,14.8,0.0355,0.2,26.95,2.08
+chelsea,0.2,0,oracle: clean patches,0.0,16.1,0.0165,0.2,31.42,6.56
+chelsea,0.2,1,window kNN (10),0.506,14.9,0.0464,1,24.86,0.0
+chelsea,0.2,1,window kNN (20),0.506,28.5,0.0476,2,24.77,-0.09
+chelsea,0.2,1,learned global (10),0.453,15.3,0.0471,0.02,26.83,1.97
+chelsea,0.2,1,learned global (20),0.453,30.9,0.0474,0.2,26.89,2.03
+chelsea,0.2,1,combined 5+5,0.958,15.3,0.0463,0.5,26.05,1.19
+chelsea,0.2,1,combined 10+10,0.958,30.1,0.0469,1,25.96,1.1
+chelsea,0.2,1,"window kNN, learned codes (10)",0.355,14.8,0.0354,0.2,26.99,2.13
+chelsea,0.2,1,oracle: clean patches,0.0,16.1,0.0165,0.2,31.36,6.5
+chelsea,0.2,2,window kNN (10),0.502,14.9,0.0465,1,24.93,0.0
+chelsea,0.2,2,window kNN (20),0.502,28.4,0.0476,2,24.84,-0.09
+chelsea,0.2,2,learned global (10),0.45,15.4,0.0475,0.02,26.76,1.83
+chelsea,0.2,2,learned global (20),0.45,30.9,0.0478,0.1,26.81,1.88
+chelsea,0.2,2,combined 5+5,0.953,15.3,0.0465,0.5,26.09,1.16
+chelsea,0.2,2,combined 10+10,0.953,30.0,0.0471,1,26.0,1.07
+chelsea,0.2,2,"window kNN, learned codes (10)",0.408,14.8,0.0353,0.2,26.92,1.99
+chelsea,0.2,2,oracle: clean patches,0.0,16.1,0.0165,0.2,31.39,6.46
+coins,0.1,0,window kNN (10),0.55,14.5,0.0349,1,27.85,0.0
+coins,0.1,0,window kNN (20),0.55,27.9,0.0382,2,27.73,-0.12
+coins,0.1,0,learned global (10),0.485,14.9,0.0364,1,28.06,0.2
+coins,0.1,0,learned global (20),0.485,29.7,0.0372,2,28.11,0.25
+coins,0.1,0,combined 5+5,1.036,14.7,0.0343,1,28.3,0.44
+coins,0.1,0,combined 10+10,1.036,28.6,0.0356,2,28.22,0.37
+coins,0.1,0,"window kNN, learned codes (10)",0.344,13.8,0.0324,1,28.26,0.4
+coins,0.1,0,oracle: clean patches,0.0,16.3,0.0212,1,30.34,2.48
+coins,0.1,1,window kNN (10),0.523,14.6,0.0347,1,27.89,0.0
+coins,0.1,1,window kNN (20),0.523,28.1,0.038,2,27.75,-0.14
+coins,0.1,1,learned global (10),0.476,14.9,0.0361,1,28.11,0.22
+coins,0.1,1,learned global (20),0.476,29.7,0.037,2,28.16,0.27
+coins,0.1,1,combined 5+5,0.999,14.7,0.0341,1,28.34,0.46
+coins,0.1,1,combined 10+10,0.999,28.6,0.0354,2,28.26,0.37
+coins,0.1,1,"window kNN, learned codes (10)",0.347,13.8,0.0324,1,28.29,0.4
+coins,0.1,1,oracle: clean patches,0.0,16.3,0.0212,1,30.32,2.43
+coins,0.1,2,window kNN (10),0.507,14.5,0.0347,1,27.95,0.0
+coins,0.1,2,window kNN (20),0.507,28.0,0.0381,2,27.79,-0.15
+coins,0.1,2,learned global (10),0.475,14.8,0.0362,1,28.09,0.14
+coins,0.1,2,learned global (20),0.475,29.7,0.0371,2,28.12,0.18
+coins,0.1,2,combined 5+5,0.982,14.6,0.0341,1,28.37,0.42
+coins,0.1,2,combined 10+10,0.982,28.6,0.0355,2,28.28,0.33
+coins,0.1,2,"window kNN, learned codes (10)",0.352,13.8,0.0323,1,28.29,0.35
+coins,0.1,2,oracle: clean patches,0.0,16.3,0.0212,1,30.36,2.41
+coins,0.2,0,window kNN (10),0.5,14.8,0.0418,1,24.6,0.0
+coins,0.2,0,window kNN (20),0.5,28.3,0.0438,2,24.47,-0.12
+coins,0.2,0,learned global (10),0.495,15.1,0.0492,0.2,25.0,0.41
+coins,0.2,0,learned global (20),0.495,30.3,0.0498,1,24.93,0.33
+coins,0.2,0,combined 5+5,0.994,15.1,0.0447,0.5,25.05,0.45
+coins,0.2,0,combined 10+10,0.994,29.5,0.0456,1,24.94,0.34
+coins,0.2,0,"window kNN, learned codes (10)",0.368,14.4,0.0362,0.5,25.06,0.47
+coins,0.2,0,oracle: clean patches,0.0,16.3,0.0212,0.5,28.54,3.94
+coins,0.2,1,window kNN (10),0.506,14.8,0.0416,1,24.58,0.0
+coins,0.2,1,window kNN (20),0.506,28.4,0.0436,2,24.46,-0.12
+coins,0.2,1,learned global (10),0.481,15.1,0.049,0.2,25.05,0.47
+coins,0.2,1,learned global (20),0.481,30.3,0.0497,1,24.98,0.4
+coins,0.2,1,combined 5+5,0.987,15.1,0.0444,0.5,25.07,0.49
+coins,0.2,1,combined 10+10,0.987,29.6,0.0454,1,24.96,0.38
+coins,0.2,1,"window kNN, learned codes (10)",0.348,14.4,0.0363,0.5,25.1,0.51
+coins,0.2,1,oracle: clean patches,0.0,16.3,0.0212,0.5,28.52,3.94
+coins,0.2,2,window kNN (10),0.512,14.8,0.0417,1,24.6,0.0
+coins,0.2,2,window kNN (20),0.512,28.3,0.0437,2,24.49,-0.11
+coins,0.2,2,learned global (10),0.478,15.1,0.0496,0.2,24.93,0.33
+coins,0.2,2,learned global (20),0.478,30.3,0.0503,1,24.88,0.28
+coins,0.2,2,combined 5+5,0.99,15.1,0.0447,0.5,25.06,0.46
+coins,0.2,2,combined 10+10,0.99,29.5,0.0458,1,24.94,0.34
+coins,0.2,2,"window kNN, learned codes (10)",0.342,14.4,0.0361,0.5,25.08,0.48
+coins,0.2,2,oracle: clean patches,0.0,16.3,0.0212,0.5,28.6,4.0
+brick,0.1,0,window kNN (10),0.508,14.1,0.0222,2,28.28,0.0
+brick,0.1,0,window kNN (20),0.508,27.4,0.0308,5,27.17,-1.12
+brick,0.1,0,learned global (10),0.444,14.8,0.0217,0.2,30.86,2.58
+brick,0.1,0,learned global (20),0.444,29.6,0.022,0.5,30.83,2.54
+brick,0.1,0,combined 5+5,0.953,14.6,0.02,1,30.34,2.05
+brick,0.1,0,combined 10+10,0.953,28.5,0.022,2,29.69,1.41
+brick,0.1,0,"window kNN, learned codes (10)",0.349,14.2,0.0181,1,29.36,1.08
+brick,0.1,0,oracle: clean patches,0.0,14.9,0.0071,0.2,37.0,8.72
+brick,0.1,1,window kNN (10),0.507,14.0,0.0222,2,28.27,0.0
+brick,0.1,1,window kNN (20),0.507,27.4,0.0308,5,27.14,-1.13
+brick,0.1,1,learned global (10),0.438,14.8,0.0216,0.2,30.9,2.64
+brick,0.1,1,learned global (20),0.438,29.6,0.022,0.5,30.83,2.56
+brick,0.1,1,combined 5+5,0.945,14.6,0.02,1,30.3,2.03
+brick,0.1,1,combined 10+10,0.945,28.5,0.022,2,29.66,1.39
+brick,0.1,1,"window kNN, learned codes (10)",0.349,14.1,0.018,1,29.37,1.1
+brick,0.1,1,oracle: clean patches,0.0,14.9,0.0071,0.2,37.05,8.79
+brick,0.1,2,window kNN (10),0.505,14.1,0.0223,2,28.24,0.0
+brick,0.1,2,window kNN (20),0.505,27.5,0.0308,5,27.13,-1.11
+brick,0.1,2,learned global (10),0.438,14.8,0.0219,0.2,30.67,2.43
+brick,0.1,2,learned global (20),0.438,29.7,0.0222,0.5,30.61,2.37
+brick,0.1,2,combined 5+5,0.943,14.6,0.0202,1,30.2,1.97
+brick,0.1,2,combined 10+10,0.943,28.5,0.0222,2,29.57,1.34
+brick,0.1,2,"window kNN, learned codes (10)",0.359,14.2,0.0181,1,29.32,1.08
+brick,0.1,2,oracle: clean patches,0.0,14.9,0.0071,0.2,36.98,8.74
+brick,0.2,0,window kNN (10),0.505,14.8,0.043,1,22.93,0.0
+brick,0.2,0,window kNN (20),0.505,28.4,0.0478,2,22.67,-0.26
+brick,0.2,0,learned global (10),0.433,15.1,0.0369,0.1,25.39,2.46
+brick,0.2,0,learned global (20),0.433,30.4,0.0374,0.5,25.37,2.44
+brick,0.2,0,combined 5+5,0.938,15.2,0.0382,1,24.12,1.19
+brick,0.2,0,combined 10+10,0.938,29.8,0.04,2,23.96,1.03
+brick,0.2,0,"window kNN, learned codes (10)",0.347,14.8,0.0307,0.5,24.34,1.41
+brick,0.2,0,oracle: clean patches,0.0,14.9,0.0071,0.05,35.91,12.98
+brick,0.2,1,window kNN (10),0.505,14.8,0.0432,1,22.86,0.0
+brick,0.2,1,window kNN (20),0.505,28.4,0.0481,2,22.59,-0.27
+brick,0.2,1,learned global (10),0.505,15.1,0.0374,0.1,25.38,2.53
+brick,0.2,1,learned global (20),0.505,30.4,0.0379,0.5,25.37,2.51
+brick,0.2,1,combined 5+5,1.01,15.2,0.0386,1,24.05,1.19
+brick,0.2,1,combined 10+10,1.01,29.8,0.0404,2,23.89,1.03
+brick,0.2,1,"window kNN, learned codes (10)",0.367,14.8,0.0306,0.5,24.32,1.46
+brick,0.2,1,oracle: clean patches,0.0,14.9,0.0071,0.05,35.97,13.11
+brick,0.2,2,window kNN (10),0.505,14.8,0.0434,1,22.8,0.0
+brick,0.2,2,window kNN (20),0.505,28.5,0.0481,2,22.56,-0.24
+brick,0.2,2,learned global (10),0.447,15.1,0.0379,0.1,25.18,2.38
+brick,0.2,2,learned global (20),0.447,30.4,0.0384,0.5,25.18,2.38
+brick,0.2,2,combined 5+5,0.953,15.2,0.0389,1,23.98,1.18
+brick,0.2,2,combined 10+10,0.953,29.8,0.0407,2,23.83,1.03
+brick,0.2,2,"window kNN, learned codes (10)",0.346,14.8,0.031,0.5,24.21,1.41
+brick,0.2,2,oracle: clean patches,0.0,14.9,0.0071,0.1,35.82,13.02
