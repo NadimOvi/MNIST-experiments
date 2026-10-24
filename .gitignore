@@ -11,3 +11,7 @@ __pycache__/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Downloaded data
+cache/
+*.npy
